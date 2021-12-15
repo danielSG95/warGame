@@ -1,0 +1,15 @@
+digraph G{
+edge[color = black, dit= both];
+nodo1616803508[label="Capa: 2"];
+nodo1355883514[label="Capa: 0"];
+nodo1616803508->nodo1355883514
+nodo1355883514->nodo1616803508
+nodo1355883514[label="Capa: 0"];
+nodo746866317[label="Capa: 1"];
+nodo1355883514->nodo746866317
+nodo746866317->nodo1355883514
+nodo746866317[label="Capa: 1"];
+nodo1616803508[label="Capa: 2"];
+nodo746866317->nodo1616803508
+nodo1616803508->nodo746866317
+}

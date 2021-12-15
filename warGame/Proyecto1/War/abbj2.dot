@@ -1,0 +1,21 @@
+digraph G{
+graph[overlap=true, fontsize = 0.5];
+node[shape=ellipse, fontname=Helvetica, fixedsize=true, width=3.5, height=0.9];
+edge[color = black];
+nodo801569348[label="Id:10\nX:12 Y:2\nTipo:5"];
+nodo1622310430[label="Id:5\nX:12 Y:14\nTipo:5"];
+nodo801569348 -> nodo1622310430[label="izdo"];
+nodo1622310430[label="Id:5\nX:12 Y:14\nTipo:5"];
+nodo1718667190[label="Id:4\nX:9 Y:15\nTipo:8"];
+nodo1622310430 -> nodo1718667190[label="izdo"];
+nodo1718667190[label="Id:4\nX:9 Y:15\nTipo:8"];
+nodo1965026291[label="Id:3\nX:11 Y:10\nTipo:9"];
+nodo1718667190 -> nodo1965026291[label="izdo"];
+nodo1965026291[label="Id:3\nX:11 Y:10\nTipo:9"];
+nodo1838365646[label="Id:14\nX:10 Y:8\nTipo:8"];
+nodo801569348 -> nodo1838365646[label="dcho"];
+nodo1838365646[label="Id:14\nX:10 Y:8\nTipo:8"];
+nodo513997548[label="Id:20\nX:13 Y:7\nTipo:10"];
+nodo1838365646 -> nodo513997548[label="dcho"];
+nodo513997548[label="Id:20\nX:13 Y:7\nTipo:10"];
+}

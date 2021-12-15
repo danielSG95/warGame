@@ -1,0 +1,29 @@
+digraph Pixeles{
+graph[ranksep=0.2];
+node[shape=box, width=0.6, heigth=0.6,fillcolor="white"color="white" style="filled"];
+edge[style = bold];
+
+struct7161871015761618710157[label="7,6",fillcolor="#2e86c1" pos = "312,-245!"];
+struct746283472910462834729[label="7,10",fillcolor="#2e86c1" pos = "312,-385!"];
+struct81942369865194236986[label="8,5",fillcolor="#2e86c1" pos = "351,-210!"];
+struct8203143130262031431302[label="8,6",fillcolor="#2e86c1" pos = "351,-245!"];
+struct81168562383101168562383[label="8,10",fillcolor="#2e86c1" pos = "351,-385!"];
+struct81828201302111828201302[label="8,11",fillcolor="#2e86c1" pos = "351,-420!"];
+struct9204572235342045722353[label="9,4",fillcolor="#2e86c1" pos = "390,-175!"];
+struct97024389965702438996[label="9,5",fillcolor="#2e86c1" pos = "390,-210!"];
+struct9152341990461523419904[label="9,6",fillcolor="#2e86c1" pos = "390,-245!"];
+struct91996677532101996677532[label="9,10",fillcolor="#2e86c1" pos = "390,-385!"];
+struct92006602043112006602043[label="9,11",fillcolor="#2e86c1" pos = "390,-420!"];
+struct975376573012753765730[label="9,12",fillcolor="#2e86c1" pos = "390,-455!"];
+struct144497465484449746548[label="14,4",fillcolor="#2e86c1" pos = "585,-175!"];
+struct14204895300852048953008[label="14,5",fillcolor="#2e86c1" pos = "585,-210!"];
+struct14160367392661603673926[label="14,6",fillcolor="#2e86c1" pos = "585,-245!"];
+struct1452534458710525344587[label="14,10",fillcolor="#2e86c1" pos = "585,-385!"];
+struct141908623331111908623331[label="14,11",fillcolor="#2e86c1" pos = "585,-420!"];
+struct1426477936112264779361[label="14,12",fillcolor="#2e86c1" pos = "585,-455!"];
+struct15162394648151623946481[label="15,5",fillcolor="#2e86c1" pos = "624,-210!"];
+struct15213900234062139002340[label="15,6",fillcolor="#2e86c1" pos = "624,-245!"];
+struct1535082898310350828983[label="15,10",fillcolor="#2e86c1" pos = "624,-385!"];
+struct151524399733111524399733[label="15,11",fillcolor="#2e86c1" pos = "624,-420!"];
+struct16163655811561636558115[label="16,6",fillcolor="#2e86c1" pos = "663,-245!"];
+struct161792118083101792118083[label="16,10",fillcolor="#2e86c1" pos = "663,-385!"];}

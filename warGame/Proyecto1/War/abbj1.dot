@@ -1,0 +1,33 @@
+digraph G{
+graph[overlap=true, fontsize = 0.5];
+node[shape=ellipse, fontname=Helvetica, fixedsize=true, width=3.5, height=0.9];
+edge[color = black];
+nodo2112256597[label="Id:50\nX:9 Y:4\nTipo:5"];
+nodo1921717552[label="Id:40\nX:4 Y:11\nTipo:0"];
+nodo2112256597 -> nodo1921717552[label="izdo"];
+nodo1921717552[label="Id:40\nX:4 Y:11\nTipo:0"];
+nodo820158029[label="Id:39\nX:1 Y:9\nTipo:0"];
+nodo1921717552 -> nodo820158029[label="izdo"];
+nodo820158029[label="Id:39\nX:1 Y:9\nTipo:0"];
+nodo1924224689[label="Id:10\nX:1 Y:7\nTipo:10"];
+nodo820158029 -> nodo1924224689[label="izdo"];
+nodo1924224689[label="Id:10\nX:1 Y:7\nTipo:10"];
+nodo1019985504[label="Id:41\nX:7 Y:8\nTipo:8"];
+nodo1921717552 -> nodo1019985504[label="dcho"];
+nodo1019985504[label="Id:41\nX:7 Y:8\nTipo:8"];
+nodo381881948[label="Id:43\nX:8 Y:8\nTipo:5"];
+nodo1019985504 -> nodo381881948[label="dcho"];
+nodo381881948[label="Id:43\nX:8 Y:8\nTipo:5"];
+nodo855108159[label="Id:42\nX:4 Y:4\nTipo:0"];
+nodo381881948 -> nodo855108159[label="izdo"];
+nodo855108159[label="Id:42\nX:4 Y:4\nTipo:0"];
+nodo1242248718[label="Id:60\nX:6 Y:6\nTipo:7"];
+nodo2112256597 -> nodo1242248718[label="dcho"];
+nodo1242248718[label="Id:60\nX:6 Y:6\nTipo:7"];
+nodo726837649[label="Id:55\nX:4 Y:1\nTipo:0"];
+nodo1242248718 -> nodo726837649[label="izdo"];
+nodo726837649[label="Id:55\nX:4 Y:1\nTipo:0"];
+nodo636347209[label="Id:61\nX:10 Y:7\nTipo:5"];
+nodo1242248718 -> nodo636347209[label="dcho"];
+nodo636347209[label="Id:61\nX:10 Y:7\nTipo:5"];
+}

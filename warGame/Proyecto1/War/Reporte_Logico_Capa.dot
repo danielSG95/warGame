@@ -1,0 +1,80 @@
+digraph matriz{
+node[shape=box, style=filled];
+edge[color=black dir=both];
+rankdir=UD;
+{rank=min; "Matriz"; "x1";"x2";"x3";"x18";"x19";"x20";}
+{rank=same; "y1";"xy: 1,1"[label="montania"];"xy: 2,1"[label="montania"];"xy: 3,1"[label="montania"];"xy: 18,1"[label="montania"];"xy: 19,1"[label="montania"];"xy: 20,1"[label="montania"];}
+{rank=same; "y2";"xy: 1,2"[label="montania"];"xy: 2,2"[label="montania"];"xy: 19,2"[label="montania"];"xy: 20,2"[label="montania"];}
+{rank=same; "y3";"xy: 1,3"[label="montania"];"xy: 20,3"[label="montania"];}
+{rank=same; "y13";"xy: 1,13"[label="montania"];"xy: 20,13"[label="montania"];}
+{rank=same; "y14";"xy: 1,14"[label="montania"];"xy: 2,14"[label="montania"];"xy: 19,14"[label="montania"];"xy: 20,14"[label="montania"];}
+{rank=same; "y15";"xy: 1,15"[label="montania"];"xy: 2,15"[label="montania"];"xy: 3,15"[label="montania"];"xy: 18,15"[label="montania"];"xy: 19,15"[label="montania"];"xy: 20,15"[label="montania"];}
+
+"xy: 1,1"->"xy: 1,2";
+"xy: 1,2"->"xy: 1,3";
+"xy: 1,3"->"xy: 1,13";
+"xy: 1,13"->"xy: 1,14";
+"xy: 1,14"->"xy: 1,15";
+"xy: 2,1"->"xy: 2,2";
+"xy: 2,2"->"xy: 2,14";
+"xy: 2,14"->"xy: 2,15";
+"xy: 3,1"->"xy: 3,15";
+"xy: 18,1"->"xy: 18,15";
+"xy: 19,1"->"xy: 19,2";
+"xy: 19,2"->"xy: 19,14";
+"xy: 19,14"->"xy: 19,15";
+"xy: 20,1"->"xy: 20,2";
+"xy: 20,2"->"xy: 20,3";
+"xy: 20,3"->"xy: 20,13";
+"xy: 20,13"->"xy: 20,14";
+"xy: 20,14"->"xy: 20,15";
+
+"x1"->"xy: 1,1";
+"x2"->"xy: 2,1";
+"x3"->"xy: 3,1";
+"x18"->"xy: 18,1";
+"x19"->"xy: 19,1";
+"x20"->"xy: 20,1";
+
+"xy: 1,1"->"xy: 2,1"[constraint=false];
+"xy: 2,1"->"xy: 3,1"[constraint=false];
+"xy: 3,1"->"xy: 18,1"[constraint=false];
+"xy: 18,1"->"xy: 19,1"[constraint=false];
+"xy: 19,1"->"xy: 20,1"[constraint=false];
+"xy: 1,2"->"xy: 2,2"[constraint=false];
+"xy: 2,2"->"xy: 19,2"[constraint=false];
+"xy: 19,2"->"xy: 20,2"[constraint=false];
+"xy: 1,3"->"xy: 20,3"[constraint=false];
+"xy: 1,13"->"xy: 20,13"[constraint=false];
+"xy: 1,14"->"xy: 2,14"[constraint=false];
+"xy: 2,14"->"xy: 19,14"[constraint=false];
+"xy: 19,14"->"xy: 20,14"[constraint=false];
+"xy: 1,15"->"xy: 2,15"[constraint=false];
+"xy: 2,15"->"xy: 3,15"[constraint=false];
+"xy: 3,15"->"xy: 18,15"[constraint=false];
+"xy: 18,15"->"xy: 19,15"[constraint=false];
+"xy: 19,15"->"xy: 20,15"[constraint=false];
+
+"y1"->"xy: 1,1";
+"y2"->"xy: 1,2";
+"y3"->"xy: 1,3";
+"y13"->"xy: 1,13";
+"y14"->"xy: 1,14";
+"y15"->"xy: 1,15";
+
+"Matriz"->x1;
+"x1"-> "x2";
+"x2"-> "x3";
+"x3"-> "x18";
+"x18"-> "x19";
+"x19"-> "x20";
+"x20"-> "x1";
+
+"Matriz"-> "y1"[rankdir=UD];
+"y1"->"y2"[rankdir=UD];
+"y2"->"y3"[rankdir=UD];
+"y3"->"y13"[rankdir=UD];
+"y13"->"y14"[rankdir=UD];
+"y14"->"y15"[rankdir=UD];
+
+}
